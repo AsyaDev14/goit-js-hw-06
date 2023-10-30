@@ -8,6 +8,7 @@ console.log(`Number of categories: ${arr.length}`)
 
 const log = arr.forEach(li => {
   const titleRef = li.querySelector('h2');
+  console.log("title", titleRef);
   const listRef = li.querySelectorAll('li');
   console.log(`Category: ${titleRef.textContent}
   Elements: ${listRef.length}`);
