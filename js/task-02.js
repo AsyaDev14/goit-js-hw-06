@@ -20,7 +20,7 @@ console.log("ulRef", ulRef);
 
 ingredients.map(ingredient => {
   const li = document.createElement("li");
-    li.textContent = ingredient;
+  li.textContent = ingredient;
   li.classList.add("item");
   ulRef.append(li);
   console.log(ingredient);
